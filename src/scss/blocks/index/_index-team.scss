@@ -167,6 +167,7 @@
     left: 64px;
     top: 45%;
     outline: none;
+    cursor: url(../img/icon1/team__cursor__grab.svg) 10 0, pointer !important;
 }
 
 .swiper-team__arrowNext {
@@ -176,6 +177,7 @@
     right: 64px;
     top: 45%;
     outline: none;
+    cursor: url(../img/icon1/team__cursor__grab.svg) 10 0, pointer !important;
 }
 
 @media (max-width: 1299px) {

@@ -28,12 +28,28 @@
     color: #F5F6FF;
 }
 
-/* Button needs to be done */
-
 .advantages__read__all {
     color: var(--subtitle24-color);
     font-family: var(--subtitle24-font-family);
     font-size: var(--subtitle24-font-size);
+    position: relative;
+}
+
+.advantages__read__all::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    display: block;
+    width: 0%;
+    height: 1px;
+    background: #F5F6FF;
+    transition: width .3s ease;
+}
+
+.advantages__read__all:hover:after {
+    width: 100%;
 }
 
 .read__all {

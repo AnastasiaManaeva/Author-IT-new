@@ -154,6 +154,7 @@
     border: 1px solid var(--c);
     --c:#232323;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .go__project:hover {
@@ -173,7 +174,6 @@
 }
 
 .slider__union__btn__all__keys {
-
     display: block;
     width: 283px;
     height: 81px;
@@ -182,6 +182,7 @@
     border-radius: 40px;
     background: #FF7D04;
     text-decoration: none;
+    transition: all .3s ease;
 }
 
 .slider__union__btn__all__keys:hover {

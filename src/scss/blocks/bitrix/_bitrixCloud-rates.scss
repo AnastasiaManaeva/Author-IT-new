@@ -207,6 +207,12 @@
     background: #FF7D04;
     margin-bottom: 18px;
     color:#F5F6FF;
+    cursor: pointer;
+    transition: background .3s ease;
+}
+
+.Bitrix__rates-services__btn:hover {
+    background: #FF9330;
 }
 
 .BitrixCloud__rates-services__btn {

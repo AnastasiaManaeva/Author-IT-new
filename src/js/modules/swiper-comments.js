@@ -13,7 +13,7 @@ function swiperComments() {
       const swiper__comments = new Swiper('.swiper__container__comments__items', {
         modules: [Navigation, Pagination],
         effect: "coverflow",
-        initialSlide: 1,
+        initialSlide: 0,
         grabCursor: true,
         slidesPerView: "1",
         centeredSlides: true,
@@ -44,7 +44,7 @@ function swiperComments() {
       /* the viewport is less than 992 pixels wide */
       const swiper__comments = new Swiper('.swiper__container__comments__items', {
         effect: "coverflow",
-        initialSlide: 1,
+        initialSlide: 0,
         grabCursor: true,
         slidesPerView: "1",
         centeredSlides: true,

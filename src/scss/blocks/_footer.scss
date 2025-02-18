@@ -72,11 +72,16 @@
 
 .services__link {
     display: block;
-    color: #F5F6FF;
+    color: #F5F6FFCC;
     padding: 8px 16px;
     border-radius: 21px;
     border: 1px solid var(--White, #F5F6FF);
     font-family: 'Open Sans', sans-serif;
+    transition: color .3s ease;
+}
+
+.services__link:hover {
+    color: #F5F6FF;
 }
 
 .contacts-section {

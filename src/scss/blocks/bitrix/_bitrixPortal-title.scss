@@ -6,9 +6,14 @@
 .Bitrix__type-rates__item {
     padding: 10px 26px;
     border-radius: 16px;
-    border: 1px solid #F5F6FF;
+    border: 1px solid #F5F6FFCC;
     color: #F5F6FF;
     background-color: inherit;
+    transition: border-color .3 ease;
+}
+
+.Bitrix__type-rates__item:hover {
+    border-color: #F5F6FF;
 }
 
 .Bitrix__type-rates__item__active {
